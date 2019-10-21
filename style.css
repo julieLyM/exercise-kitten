@@ -1,12 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
   background: #69973e;
   color: #2d3c1c;
 }
 
 .kitten-page {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
     margin: 0 auto;
     width: 80%;
 }
@@ -16,13 +18,12 @@ body {
   margin:0;
 }
 
+
 .header-title h1 {
   color: #909b7f;
   padding: 10px;
   text-align: center;
 }
-
-
 
 .navbar ul{
   display: flex;
@@ -46,7 +47,13 @@ body {
   margin: 10px;
 }
 
+
+.kitten-description {
+  margin: 0 20px;
+}
+
+
 .navbar-bottom ul{
-background: white;
-color: purple;
+  background: white;
+  color: purple;
 }
